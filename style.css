@@ -1,0 +1,109 @@
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif;}
+
+
+header{width: 100%;
+height: 650px;
+background-color: #1a52f9;}
+
+
+li{display: inline;
+padding: 15px;}
+
+
+.navbar{width: 100%;
+height: 100px;
+display: flex;
+justify-content: space-around;
+align-items: center;}
+
+
+.logo{width: 15%;
+text-transform: uppercase;
+font-size: 1.8rem;
+padding: 30px;}
+
+
+.main-menu{width: 35%;
+font-size: 1.3rem;
+color: white;
+align-items: center;}
+
+
+.logo a{color: white;
+text-decoration: none;}
+
+
+a{text-decoration: none;}
+
+
+.main-menu a{color: white;}
+
+.main-menu ul li:hover{
+	border-top: 2px solid #5dade2;
+	border-bottom: 2px solid #5dade2;
+}
+
+.contact_button a{width: 15%;
+	color: white;
+	font-size: 1.3rem;
+	background-color:#d465ef;
+	padding: 10px 20px 10px 20px;
+	border-radius: 05px;
+	margin-left: 250px;
+
+}
+
+.contact_button a:hover{background-color: #5dade2;}
+
+.header_content{position: absolute;
+				top: 50%; left: 50%;
+				transform: translate(-50%, -50%);
+			}
+.header_content h1{color: #fff;
+				font-size: 50px;
+				font-weight: 700;}
+
+
+.header_content h2{color: #fff;
+				font-size: 30px;
+				text-align: center;
+				font-weight: 400;
+				margin-bottom: 50px;}
+
+
+header:before{content: "";
+		width: 400px;
+		height: 450px;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		background-image: url('https://litslink.com/wp-content/uploads/2021/03/web-development.png');
+		background-size: 100% 100%;
+	}
+
+	form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0062cc;
+}
